@@ -1,0 +1,184 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneha Tomer</title>
+    <link rel="icon" type="image/png" href="images/profile.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="logo">
+        <h1>Sneha Tomer</h1>
+        <p class="contact">
+          <img src="./images/email_icon.png" />snehatomer62@gmail.com
+        </p>
+        <p class="contact">
+          <img src="./images/phone_icon.png" />+91 9870933462
+        </p>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a id="introBTN">About Me</a>
+          <hr noshade />
+        </li>
+        <li>
+          <a id="skillsBTN">Skills</a>
+          <hr noshade />
+        </li>
+        <li>
+          <a id="projectsBTN">Projects</a>
+          <hr noshade />
+        </li>
+        <li>
+          <a id="recommendationsBTN">Recommendations</a>
+          <hr noshade />
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Go to Top Button -->
+    <img src="./images/arrow_icon.png" alt="Menu" id="upBTN" />
+    <!-- Introduction -->
+
+    <div class="intro" id="intro">
+      <img src="./images/profile.png" alt="My Image" />
+      <div class="content">
+        <h1 class="heading">Hi, I'm Sneha Tomer</h1>
+        <p style="text-align: justify">
+          I am a web developer with one year of experience. I am currently a
+          B.Tech student at Graphic Era Deemed to be University. I have a strong
+          interest in data science and machine learning, and I have used these
+          skills to complete two projects: Twitter Sentimental Analysis and
+          Driver Drowsiness Detection. In the Twitter Sentimental Analysis
+          project, I used natural language processing to analyze tweets and
+          determine their sentiment (positive, negative, or neutral). In the
+          Driver Drowsiness Detection project, I used computer vision to detect
+          drowsiness in drivers. I am a quick learner and I am always eager to
+          take on new challenges. I am also a team player and I am able to work
+          independently.
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills" id="skills">
+      <h1 class="heading-small">Skills</h1>
+      <div class="skill-grid">
+        <div class="skill">
+          <img src="./images/html_icon.png" alt="HTML" />
+          <h3>HTML</h3>
+          <p>Intermediate</p>
+        </div>
+        <div class="skill">
+          <img src="./images/css_icon.png" alt="HTML" />
+          <h3>CSS</h3>
+          <p>Intermediate</p>
+        </div>
+        <div class="skill">
+          <img src="./images/js_icon.png" alt="HTML" />
+          <h3>JavaScript</h3>
+          <p>Beginner</p>
+        </div>
+        <div class="skill">
+          <img src="./images/cpp_icon.png" alt="HTML" />
+          <h3>C++</h3>
+          <p>Intermediate</p>
+        </div>
+        <div class="skill">
+          <img src="./images/java_icon.png" alt="HTML" />
+          <h3>Java</h3>
+          <p>Intermediate</p>
+        </div>
+        <div class="skill">
+          <img src="./images/python_icon.png" alt="HTML" />
+          <h3>Python</h3>
+          <p>Beginner</p>
+        </div>
+        <div class="skill">
+          <img src="./images/mysql_icon.png" alt="HTML" />
+          <h3>MySQL</h3>
+          <p>Advance</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div class="projects" id="projects">
+      <h1 class="heading-small">Projects</h1>
+
+      <div class="project">
+        <h3>Twitter Sentimental Analysis</h3>
+        <p>
+          A comprehensive Machine Learning based program that identifies public
+          opinion and mood using tweets , the program uses advanced Artificial
+          Intelligence algorithms which are mathematically proven and data
+          driven. K-means clustering on vectorized topics and assigned cluster
+          centroids as superclass of generated topics.<br />Used : Python , NLTK
+          , Matplotlib
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Driver Drowsiness Detection</h3>
+        <p>
+          Alert and alarm system based on computer vision to help reduce the
+          risk of accidents by trying to minimize driver’s drowsiness. Built a
+          CNN algorithm on Keras to achieve multilayer architecture , Learning
+          based model to learn individual behaviour.<br />Used : Python , OpenCV
+          , TensorFlow
+        </p>
+      </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="recommendations" id="recommendations">
+      <h1 class="heading-small">Recommendations</h1>
+      <div class="recommends">
+        <div class="recommend">
+          <p>
+            "Sneha is a highly skilled html, css, and javascript. They are also
+            a quick learner and are always eager to take on new challenges. In
+            their previous role, they were responsible for development of our
+            major application. They consistently exceeded expectations and were
+            a valuable asset to the team."
+          </p>
+        </div>
+        <div class="recommend">
+          <p>
+            "Sneha is a very quick learner and quickly grasps key concepts of
+            Web development. She got a great attitude & she is an excellent team
+            player. She has a curious mind and asks the right question. She
+            takes initiative within a team and has potentials to lead the team."
+          </p>
+        </div>
+        <div class="recommend">
+          <p>
+            "Working with Sneha has been an awesome experience. She is highly
+            knowledgeable and always goes the extra step to make sure everything
+            is right. For any future projects that need her expertise I would
+            definitely want to work with her again. "
+          </p>
+        </div>
+      </div>
+
+      <form>
+        <h3>Leave a Recommendation</h3>
+        <input type="text" placeholder="Name" />
+        <textarea
+          name="recommendation"
+          id="recommendation"
+          cols="30"
+          rows="10"
+          placeholder="Recommendation"
+        ></textarea>
+        <div class="button-wrap">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
